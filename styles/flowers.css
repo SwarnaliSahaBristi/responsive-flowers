@@ -1,3 +1,10 @@
+.noto-serif-fonts {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
 .display-flex {
   display: flex;
 }
@@ -51,6 +58,48 @@
 }
 .banner-description {
   font-size: 1.5rem;
+}
+.plant-details h2 {
+  font-weight: bold;
+  font-size: 3.2rem;
+  text-align: center;
+}
+.plant-details p {
+  font-size: 1.5rem;
+  text-align: center;
+  max-width: 800px;
+  margin-left: 200px;
+}
+.plant-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid white;
+  max-width: 1100px;
+  height: 470px;
+  margin-left: 100px;
+  gap: 20px;
+}
+.plant-images h5 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding: 5px;
+  text-align: center;
+  padding: 2px;
+}
+.plant-images h4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 3px;
+}
+.plant-images img {
+  max-width: 250px;
+}
+.btn-primary {
+  color: white;
+  background-color: #e95a08;
+  padding: 18px 80px;
+  border-style: none;
 }
 @media screen and (max-width: 576px) {
 }
