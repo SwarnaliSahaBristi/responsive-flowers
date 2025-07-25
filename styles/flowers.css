@@ -74,8 +74,8 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   border: 1px solid white;
-  max-width: 1100px;
-  max-height: 470px;
+  width: 1100px;
+  height: 470px;
   margin-left: 100px;
   gap: 20px;
 }
@@ -257,21 +257,52 @@
     display: block;
   }
   .banner {
+    margin: 0%;
     flex-direction: column-reverse;
   }
-  .banner-title {
+  .banner img {
     box-sizing: border-box;
   }
   .plant-details {
     flex-direction: column;
   }
-  .plant-details h2 {
+  .plant-details h2,
+  .plant-items {
     text-align: center;
   }
-  .plant-lover {
-    margin-top: 1200px;
+  .plant-details p {
+    max-width: 100%;
+    margin: 0px;
   }
   .plant-box {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+    width: 100%;
+    grid-column: 2 / span 2;
+  }
+  .plant-images {
+    width: 100%;
+  }
+  .plant-lover {
+    margin-top: 1750px;
+    margin-right: 50px;
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .plant-items p {
+    max-width: 100%;
+    margin: 0px;
+  }
+  .plant-items-details {
+    flex-direction: column;
+  }
+  .colouful-bunch,
+  .colouful-bunch input {
+    max-width: 100%;
+  }
+  .footer-1 {
+    flex-direction: column;
+    margin-left: o;
   }
 }
